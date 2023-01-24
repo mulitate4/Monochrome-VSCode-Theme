@@ -1,0 +1,21 @@
+{
+    "name": "monochrome-theme",
+    "displayName": "Monochrome Theme",
+    "description": "Monochrome theme, that incorporates color, while also reducing eye strain",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monochromous",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monochromous-color-theme.json"
+            }
+        ]
+    }
+}
